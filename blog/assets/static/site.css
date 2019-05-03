@@ -4,10 +4,15 @@
 	text-decoration: underline;
 }
 
+.blog-heading a {
+	color: #303030;
+}
+
 .post-title{
 	font-family: 'Playfair Display', serif;
 	/*font-weight: bold;*/
-	margin-top: 40px;
+	margin: 40px 0  20px 0 ;
+	display: block;
 }
 
 .post-body{
