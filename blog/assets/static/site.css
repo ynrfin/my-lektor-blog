@@ -1,7 +1,7 @@
 .blog-heading {
 	font-family: 'Playfair Display', serif;
 	font-size: 8em;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 }
 
 .blog-heading a {
@@ -9,8 +9,8 @@
 }
 
 .post-title{
-	font-family: 'Playfair Display', serif;
-	/*font-weight: bold;*/
+	font-family: 'Lato', serif;
+	font-weight: bold;
 	margin: 40px 0  20px 0 ;
 	display: block;
 }
@@ -20,17 +20,11 @@
 	font-size: 1.15em;
 	letter-spacing: 0.0625em;
 }
-.main-menu {
-	position: absolute;
-	top: 33%;
-	font-family: 'Playfair Display', serif;
-	font-weight: bold;
-	font-size: 2em;
-	height: 100px;
-	/*margin-top: -50px; /* account for padding and border if not using box-sizing: border-box; */
-}
 
-.main-menu a {
+.main-link a {
+	font-family: 'Playfair Display', serif;
+		font-weight: bold;
+		font-size: 2em;
 	color: #303030;
 }
 
