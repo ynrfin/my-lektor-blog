@@ -1,0 +1,31 @@
+.blog-heading {
+	font-family: 'Playfair Display', serif;
+	font-size: 8em;
+	text-decoration: underline;
+}
+
+.post-title{
+	font-family: 'Playfair Display', serif;
+	/*font-weight: bold;*/
+	margin-top: 40px;
+}
+
+.post-body{
+	font-family: 'Lato', sans-serif;	
+	font-size: 1.15em;
+	letter-spacing: 0.0625em;
+}
+.main-menu {
+	position: absolute;
+	top: 33%;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	font-size: 2em;
+	height: 100px;
+	/*margin-top: -50px; /* account for padding and border if not using box-sizing: border-box; */
+}
+
+.main-menu a {
+	color: #303030;
+}
+
