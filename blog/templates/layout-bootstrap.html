@@ -28,28 +28,24 @@
 
       <!-- Site Content -->
       <div class="row">
-        <div class="col-md-2 d-none d-md-block">
-          <div class="row main-menu position-fixed ">
-            <div class="col-md-12">
-              <nav class="float-right">
-                <ul class="nav navbar-nav ">
-                  <li{% if this._path == '/' %} class="active"{% endif
-                    %}>
-                    <!-- <a href="{{ '/'|url }}">Welcome</a></li> -->
-                  {% for href, title in [
-                    ['/blog', 'Blog'],
-                    ['/projects', 'Projects'],
-                    ['/about', 'About']
-                  ] %}
-                    <li{% if this.is_child_of(href) %} class="active"{% endif
-                      %}><a href="{{ href|url }}" class="float-right">{{ title }}</a></li>
-                  {% endfor %}
-                </ul>
-              </nav> 
-            </div>
+        <!-- Navigation -->
+          <div class="col-sm-12 col-md-2">
+              <div class="row">
+                        <!-- <a href="{{ '/'|url }}">Welcome</a></li> -->
+                      {% for href, title in [
+                        ['/blog', 'Blog'],
+                        ['/projects', 'Projects'],
+                        ['/about', 'About']
+                      ] %}
+                        <div class="col-sm-auto col-md-12 col-xs-3 main-link">
+                          <a href="{{ href|url}}" class="">{{title}}</a>
+                        </div>
+                      {% endfor %}
+              </div>
           </div>
-        </div>
-        <div class="col-md-10 col-lg-8 col-xl-6">
+
+        <!-- Content -->
+        <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
           <div class="row ">
            {% block body %}{% endblock %} 
           </div>
