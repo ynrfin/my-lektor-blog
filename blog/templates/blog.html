@@ -1,11 +1,19 @@
 {% extends "layout-bootstrap.html" %}
-{% from "macros/blog.html" import render_blog_post %}
+{% from "macros/blog.html" import render_blog_list %}
 {% from "macros/pagination.html" import render_pagination %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-  {% for child in this.pagination.items %}
-    {{ render_blog_post(child, from_index=true) }}
-  {% endfor %}
+    <div class="row mt-5">
+        {% for child in this.pagination.items %}
+            <div class="col-md-12">
+                {{ render_blog_list(child, from_index=true) }}
+            </div>
+        {% endfor %}
+    </div>
 
-  {{ render_pagination(this.pagination) }}
+    <div class="row">
+        <div class="col-md-12">
+            {{ render_pagination(this.pagination) }}
+        </div>
+    </div>
 {% endblock %}
