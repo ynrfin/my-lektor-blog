@@ -28,3 +28,10 @@
 	color: #303030;
 }
 
+.post-title-list{
+	font-family: 'Lato', serif;
+    font-size: 0.75em;
+	font-weight: bold;
+    color:#030303;
+	/* margin: 40px 0  20px 0 ; */
+}
