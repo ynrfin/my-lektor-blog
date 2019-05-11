@@ -10,6 +10,7 @@
 
     <!-- Font fairplay -->
     <link href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display" rel="stylesheet"> 
+
     <link rel="stylesheet" href="{{ '/static/site.css'|url }}">
     <title>{% block title %}Welcome{% endblock %} — blog<</title>
   </head>
@@ -46,9 +47,7 @@
 
         <!-- Content -->
         <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
-          <div class="row ">
            {% block body %}{% endblock %} 
-          </div>
         </div>
       </div>
       <!-- END of Site Content -->
