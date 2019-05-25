@@ -1,4 +1,6 @@
 language: python
+before_install:
+    - cd blog
 python: 3.6
 install: "pip install Lektor"
 script: "lektor build"
