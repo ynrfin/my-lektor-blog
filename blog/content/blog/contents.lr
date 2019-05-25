@@ -1,3 +1,6 @@
 _model: blog
 ---
 title: Blog
+---
+body:
+Hey this is body 2
