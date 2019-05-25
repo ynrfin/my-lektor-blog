@@ -1,0 +1,37 @@
+.blog-heading {
+	font-family: 'Playfair Display', serif;
+	font-size: 8em;
+	/*text-decoration: underline;*/
+}
+
+.blog-heading a {
+	color: #303030;
+}
+
+.post-title{
+	font-family: 'Lato', serif;
+	font-weight: bold;
+	margin: 40px 0  20px 0 ;
+	display: block;
+}
+
+.post-body{
+	font-family: 'Lato', sans-serif;	
+	font-size: 1.15em;
+	letter-spacing: 0.0625em;
+}
+
+.main-link a {
+	font-family: 'Playfair Display', serif;
+		font-weight: bold;
+		font-size: 2em;
+	color: #303030;
+}
+
+.post-title-list{
+	font-family: 'Lato', serif;
+    font-size: 0.75em;
+	font-weight: bold;
+    color:#030303;
+	/* margin: 40px 0  20px 0 ; */
+}
