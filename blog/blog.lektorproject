@@ -1,2 +1,5 @@
 [project]
 name = blog
+
+[servers.ghpages]
+target = ghpages+https://ynrfin/my-lektor-blog
